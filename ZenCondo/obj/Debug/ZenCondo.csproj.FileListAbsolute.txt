@@ -1,0 +1,212 @@
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\ApplicationInsights.config
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\roslyn\csc.exe
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\roslyn\System.Collections.Immutable.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\roslyn\vbc.exe
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\roslyn\VBCSCompiler.exe
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\roslyn\VBCSCompiler.exe.config
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\ZenCondo.dll.config
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\ZenCondo.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\ZenCondo.pdb
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\Antlr3.Runtime.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\Microsoft.AI.DependencyCollector.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\Microsoft.AI.Web.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\Microsoft.AI.WindowsServer.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\Microsoft.ApplicationInsights.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\Microsoft.Web.Infrastructure.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\Newtonsoft.Json.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\System.Web.Helpers.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\System.Web.Mvc.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\System.Web.Optimization.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\System.Web.Razor.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\System.Web.WebPages.Deployment.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\System.Web.WebPages.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\System.Web.WebPages.Razor.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\WebGrease.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\Microsoft.AI.DependencyCollector.xml
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\Microsoft.AI.Web.xml
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\Microsoft.AI.WindowsServer.xml
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\Microsoft.ApplicationInsights.xml
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\System.Web.Helpers.xml
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\System.Web.Mvc.xml
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\System.Web.Optimization.xml
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\System.Web.Razor.xml
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\System.Web.WebPages.xml
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\System.Web.WebPages.Deployment.xml
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\System.Web.WebPages.Razor.xml
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\Antlr3.Runtime.pdb
+C:\Sites\Paramsites\ZenCondo\ZenCondo\bin\Newtonsoft.Json.xml
+C:\Sites\Paramsites\ZenCondo\ZenCondo\obj\Debug\ZenCondo.dll
+C:\Sites\Paramsites\ZenCondo\ZenCondo\obj\Debug\ZenCondo.pdb
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\ApplicationInsights.config
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\roslyn\csc.exe
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\roslyn\System.Collections.Immutable.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\roslyn\vbc.exe
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\roslyn\VBCSCompiler.exe
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\roslyn\VBCSCompiler.exe.config
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\ZenCondo.dll.config
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\ZenCondo.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\ZenCondo.pdb
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\Antlr3.Runtime.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\Microsoft.AI.DependencyCollector.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\Microsoft.AI.Web.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\Microsoft.AI.WindowsServer.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\Microsoft.ApplicationInsights.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\Microsoft.Web.Infrastructure.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\Newtonsoft.Json.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\System.Web.Helpers.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\System.Web.Mvc.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\System.Web.Optimization.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\System.Web.Razor.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\System.Web.WebPages.Deployment.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\System.Web.WebPages.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\System.Web.WebPages.Razor.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\WebGrease.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\Microsoft.AI.DependencyCollector.xml
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\Microsoft.AI.Web.xml
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\Microsoft.AI.WindowsServer.xml
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\Microsoft.ApplicationInsights.xml
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\System.Web.Helpers.xml
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\System.Web.Mvc.xml
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\System.Web.Optimization.xml
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\System.Web.Razor.xml
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\System.Web.WebPages.xml
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\System.Web.WebPages.Deployment.xml
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\System.Web.WebPages.Razor.xml
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\Antlr3.Runtime.pdb
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\bin\Newtonsoft.Json.xml
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\obj\Debug\ZenCondo.dll
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\obj\Debug\ZenCondo.pdb
+C:\Sites\Paramsites\ZenCondo_dalip\ZenCondo\obj\Debug\ZenCondo.csprojResolveAssemblyReference.cache
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\ApplicationInsights.config
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\roslyn\csc.exe
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\roslyn\System.Collections.Immutable.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\roslyn\System.Reflection.Metadata.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\roslyn\vbc.exe
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\roslyn\VBCSCompiler.exe
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\roslyn\VBCSCompiler.exe.config
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\ZenCondo.dll.config
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\ZenCondo.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\ZenCondo.pdb
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\Antlr3.Runtime.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\Microsoft.AI.Agent.Intercept.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\Microsoft.AI.DependencyCollector.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\Microsoft.AI.Web.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\Microsoft.AI.WindowsServer.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\Microsoft.ApplicationInsights.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\Microsoft.Web.Infrastructure.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\Newtonsoft.Json.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\System.Web.Helpers.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\System.Web.Mvc.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\System.Web.Optimization.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\System.Web.Razor.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\System.Web.WebPages.Deployment.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\System.Web.WebPages.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\System.Web.WebPages.Razor.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\WebGrease.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\Microsoft.AI.DependencyCollector.xml
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\Microsoft.AI.Web.xml
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\Microsoft.AI.WindowsServer.xml
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\Microsoft.ApplicationInsights.xml
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\System.Web.Helpers.xml
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\System.Web.Mvc.xml
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\System.Web.Optimization.xml
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\System.Web.Razor.xml
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\System.Web.WebPages.xml
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\System.Web.WebPages.Deployment.xml
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\System.Web.WebPages.Razor.xml
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\Antlr3.Runtime.pdb
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\bin\Newtonsoft.Json.xml
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\obj\Debug\ZenCondo.csprojResolveAssemblyReference.cache
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\obj\Debug\ZenCondo.csproj.CoreCompileInputs.cache
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\obj\Debug\ZenCondo.dll
+E:\real estate projects\ZenCondo_dalip\ZenCondo_dalip\ZenCondo\obj\Debug\ZenCondo.pdb
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\ApplicationInsights.config
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\roslyn\csc.exe
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\roslyn\System.Collections.Immutable.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\roslyn\System.Reflection.Metadata.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\roslyn\vbc.exe
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\roslyn\VBCSCompiler.exe
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\roslyn\VBCSCompiler.exe.config
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\ZenCondo.dll.config
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\ZenCondo.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\ZenCondo.pdb
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\Antlr3.Runtime.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\Microsoft.AI.Agent.Intercept.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\Microsoft.AI.DependencyCollector.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\Microsoft.AI.Web.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\Microsoft.AI.WindowsServer.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\Microsoft.ApplicationInsights.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\Microsoft.Web.Infrastructure.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\Newtonsoft.Json.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\System.Web.Helpers.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\System.Web.Mvc.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\System.Web.Optimization.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\System.Web.Razor.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\System.Web.WebPages.Deployment.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\System.Web.WebPages.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\System.Web.WebPages.Razor.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\WebGrease.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\Microsoft.AI.DependencyCollector.xml
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\Microsoft.AI.Web.xml
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\Microsoft.AI.WindowsServer.xml
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\Microsoft.ApplicationInsights.xml
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\System.Web.Helpers.xml
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\System.Web.Mvc.xml
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\System.Web.Optimization.xml
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\System.Web.Razor.xml
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\System.Web.WebPages.xml
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\System.Web.WebPages.Deployment.xml
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\System.Web.WebPages.Razor.xml
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\Antlr3.Runtime.pdb
+E:\real estate projects\condo new design\latest design\ZenCondo\bin\Newtonsoft.Json.xml
+E:\real estate projects\condo new design\latest design\ZenCondo\obj\Debug\ZenCondo.csproj.CoreCompileInputs.cache
+E:\real estate projects\condo new design\latest design\ZenCondo\obj\Debug\ZenCondo.dll
+E:\real estate projects\condo new design\latest design\ZenCondo\obj\Debug\ZenCondo.pdb

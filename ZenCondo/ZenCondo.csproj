@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F12C1703-0161-48E2-A1BA-B3DF3E26F998}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZenCondo</RootNamespace>
+    <AssemblyName>ZenCondo</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=2.0.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.2.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.2.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.2.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ZencondoController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PersonModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Images\accent.png" />
+    <Content Include="Images\bullet.png" />
+    <Content Include="Images\heroAccent.png" />
+    <Content Include="Images\orderedList0.png" />
+    <Content Include="Images\orderedList1.png" />
+    <Content Include="Images\orderedList2.png" />
+    <Content Include="Images\orderedList3.png" />
+    <Content Include="Images\orderedList4.png" />
+    <Content Include="Images\orderedList5.png" />
+    <Content Include="Images\orderedList6.png" />
+    <Content Include="Images\orderedList7.png" />
+    <Content Include="Images\orderedList8.png" />
+    <Content Include="Images\orderedList9.png" />
+    <Content Include="PeakCondo\css\bootstrap-theme.css" />
+    <Content Include="PeakCondo\css\bootstrap-theme.min.css" />
+    <Content Include="PeakCondo\css\bootstrap.css" />
+    <Content Include="PeakCondo\css\bootstrap.min.css" />
+    <Content Include="PeakCondo\css\demo2.css" />
+    <Content Include="PeakCondo\css\font-awesome.css" />
+    <Content Include="PeakCondo\css\font-awesome.min.css" />
+    <Content Include="PeakCondo\css\font.css" />
+    <Content Include="PeakCondo\css\github.css" />
+    <Content Include="PeakCondo\css\lightbox.css" />
+    <Content Include="PeakCondo\css\media-queries.css" />
+    <Content Include="PeakCondo\css\nivo-slider.css" />
+    <Content Include="PeakCondo\css\style.css" />
+    <Content Include="PeakCondo\fonts\Bebas_gdi.svg" />
+    <Content Include="PeakCondo\fonts\demo.html" />
+    <Content Include="PeakCondo\fonts\ftrabk__-webfont.svg" />
+    <Content Include="PeakCondo\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="PeakCondo\fonts\myriadpro-regular.svg" />
+    <Content Include="PeakCondo\fonts\opensans-bold-webfont.svg" />
+    <Content Include="PeakCondo\fonts\opensans-regular-webfont.svg" />
+    <Content Include="PeakCondo\fonts\oswald-medium-demo.html" />
+    <Content Include="PeakCondo\fonts\oswald-regular-webfont.svg" />
+    <Content Include="PeakCondo\fonts\Poppins-Medium.svg" />
+    <Content Include="PeakCondo\fonts\robotocondensed-regular-webfont.svg" />
+    <Content Include="PeakCondo\images\1.jpg" />
+    <Content Include="PeakCondo\images\2.jpg" />
+    <Content Include="PeakCondo\images\3.jpg" />
+    <Content Include="PeakCondo\images\31.jpg" />
+    <Content Include="PeakCondo\images\32.jpg" />
+    <Content Include="PeakCondo\images\33.jpg" />
+    <Content Include="PeakCondo\images\34.jpg" />
+    <Content Include="PeakCondo\images\4.jpg" />
+    <Content Include="PeakCondo\images\a-floorplan-end.png" />
+    <Content Include="PeakCondo\images\a-floorplan-mid.png" />
+    <Content Include="PeakCondo\images\about_img.jpg" />
+    <Content Include="PeakCondo\images\arrow-1.png" />
+    <Content Include="PeakCondo\images\b-floorplan.png" />
+    <Content Include="PeakCondo\images\back_ground.png" />
+    <Content Include="PeakCondo\images\bag_img.jpg" />
+    <Content Include="PeakCondo\images\banner1.jpg" />
+    <Content Include="PeakCondo\images\banner2.jpg" />
+    <Content Include="PeakCondo\images\banner3.jpg" />
+    <Content Include="PeakCondo\images\banner4.jpg" />
+    <Content Include="PeakCondo\images\banner4.png" />
+    <Content Include="PeakCondo\images\banner_img.jpg" />
+    <Content Include="PeakCondo\images\big1.jpg" />
+    <Content Include="PeakCondo\images\big2.jpg" />
+    <Content Include="PeakCondo\images\big3.jpg" />
+    <Content Include="PeakCondo\images\big4.jpg" />
+    <Content Include="PeakCondo\images\big5.jpg" />
+    <Content Include="PeakCondo\images\big6.jpg" />
+    <Content Include="PeakCondo\images\big7.jpg" />
+    <Content Include="PeakCondo\images\big8.jpg" />
+    <Content Include="PeakCondo\images\big9.jpg" />
+    <Content Include="PeakCondo\images\c-floorplan.png" />
+    <Content Include="PeakCondo\images\client_img.png" />
+    <Content Include="PeakCondo\images\close.png" />
+    <Content Include="PeakCondo\images\contact_logo.png" />
+    <Content Include="PeakCondo\images\list_icon.png" />
+    <Content Include="PeakCondo\images\loading.gif" />
+    <Content Include="PeakCondo\images\logo-small-right.png" />
+    <Content Include="PeakCondo\images\logo.png" />
+    <Content Include="PeakCondo\images\mail_icnnn.png" />
+    <Content Include="PeakCondo\images\mbl_icnnn.png" />
+    <Content Include="PeakCondo\images\middle_bg.png" />
+    <Content Include="PeakCondo\images\next.png" />
+    <Content Include="PeakCondo\images\past_communities.png" />
+    <Content Include="PeakCondo\images\prev.png" />
+    <Content Include="PeakCondo\images\Screen-Shot-2017-05-06-at-5.05.16-AM.png" />
+    <Content Include="PeakCondo\images\service1.jpg" />
+    <Content Include="PeakCondo\images\service2.jpg" />
+    <Content Include="PeakCondo\images\service3.jpg" />
+    <Content Include="PeakCondo\images\service4.jpg" />
+    <Content Include="PeakCondo\images\service5.jpg" />
+    <Content Include="PeakCondo\images\service6.jpg" />
+    <Content Include="PeakCondo\images\service7.jpg" />
+    <Content Include="PeakCondo\images\service8.jpg" />
+    <Content Include="PeakCondo\images\service9.jpg" />
+    <Content Include="PeakCondo\images\sms.png" />
+    <Content Include="PeakCondo\images\socio_1.png" />
+    <Content Include="PeakCondo\images\socio_2.png" />
+    <Content Include="PeakCondo\images\socio_3.png" />
+    <Content Include="PeakCondo\images\socio_4.png" />
+    <Content Include="PeakCondo\images\toystory.jpg" />
+    <Content Include="PeakCondo\images\vip_banner.png" />
+    <Content Include="PeakCondo\js\bootstrap.js" />
+    <Content Include="PeakCondo\js\bootstrap.min.js" />
+    <Content Include="PeakCondo\js\highlight.js" />
+    <Content Include="PeakCondo\js\jquery-1.10.2.js" />
+    <Content Include="PeakCondo\js\jquery-1.10.2.min.js" />
+    <Content Include="PeakCondo\js\jquery-1.9.0.min.js" />
+    <Content Include="PeakCondo\js\jquery.flexisel.js" />
+    <Content Include="PeakCondo\js\jquery.js" />
+    <Content Include="PeakCondo\js\jquery.nivo.slider.js" />
+    <Content Include="PeakCondo\js\jquery_002.js" />
+    <Content Include="PeakCondo\js\jquery_003.js" />
+    <Content Include="PeakCondo\js\lightbox.js" />
+    <Content Include="PeakCondo\js\npm.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PeakCondo\css\bootstrap-theme.css.map" />
+    <Content Include="PeakCondo\css\bootstrap.css.map" />
+    <Content Include="PeakCondo\fonts\Bebas_gdi.eot" />
+    <Content Include="PeakCondo\fonts\Bebas_gdi.ttf" />
+    <Content Include="PeakCondo\fonts\Bebas_gdi.woff" />
+    <Content Include="PeakCondo\fonts\ftrabk__-webfont.ttf" />
+    <Content Include="PeakCondo\fonts\ftrabk__-webfont.woff" />
+    <Content Include="PeakCondo\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="PeakCondo\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="PeakCondo\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="PeakCondo\fonts\myriadpro-regular.eot" />
+    <Content Include="PeakCondo\fonts\myriadpro-regular.ttf" />
+    <Content Include="PeakCondo\fonts\myriadpro-regular.woff" />
+    <Content Include="PeakCondo\fonts\opensans-bold-webfont.eot" />
+    <Content Include="PeakCondo\fonts\opensans-bold-webfont.ttf" />
+    <Content Include="PeakCondo\fonts\opensans-bold-webfont.woff" />
+    <Content Include="PeakCondo\fonts\opensans-regular-webfont.eot" />
+    <Content Include="PeakCondo\fonts\opensans-regular-webfont.ttf" />
+    <Content Include="PeakCondo\fonts\opensans-regular-webfont.woff" />
+    <Content Include="PeakCondo\fonts\oswald-regular-webfont.eot" />
+    <Content Include="PeakCondo\fonts\oswald-regular-webfont.ttf" />
+    <Content Include="PeakCondo\fonts\oswald-regular-webfont.woff" />
+    <Content Include="PeakCondo\fonts\Poppins-Medium.eot" />
+    <Content Include="PeakCondo\fonts\Poppins-Medium.otf" />
+    <Content Include="PeakCondo\fonts\Poppins-Medium.ttf" />
+    <Content Include="PeakCondo\fonts\Poppins-Medium.woff" />
+    <Content Include="PeakCondo\fonts\Poppins-Regular.eot" />
+    <Content Include="PeakCondo\fonts\Poppins-Regular.ttf" />
+    <Content Include="PeakCondo\fonts\Poppins-Regular.woff" />
+    <Content Include="PeakCondo\fonts\robotocondensed-regular-webfont.eot" />
+    <Content Include="PeakCondo\fonts\robotocondensed-regular-webfont.ttf" />
+    <Content Include="PeakCondo\fonts\robotocondensed-regular-webfont.woff" />
+    <Content Include="PeakCondo\fonts\robotocondensed-regular-webfont.woff2" />
+    <Content Include="PeakCondo\fonts\montserrat-bold-webfont.eot" />
+    <Content Include="PeakCondo\fonts\montserrat-bold-webfont.ttf" />
+    <Content Include="PeakCondo\fonts\montserrat-bold-webfont.woff" />
+    <Content Include="PeakCondo\fonts\montserrat-bold-webfont.woff2" />
+    <Content Include="PeakCondo\fonts\Montserrat-Light.eot" />
+    <Content Include="PeakCondo\fonts\Montserrat-Light.ttf" />
+    <Content Include="PeakCondo\fonts\Montserrat-Light.woff" />
+    <Content Include="PeakCondo\fonts\montserrat-semibold-webfont.woff" />
+    <Content Include="PeakCondo\fonts\montserrat-semibold-webfont.woff2" />
+    <Content Include="PeakCondo\fonts\oswald-medium-webfont.ttf" />
+    <Content Include="PeakCondo\fonts\oswald-medium-webfont.woff" />
+    <Content Include="PeakCondo\fonts\oswald-medium-webfont.woff2" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Zencondo\About.cshtml" />
+    <Content Include="Views\Zencondo\Contact.cshtml" />
+    <Content Include="Views\Zencondo\Index.cshtml" />
+    <Content Include="Views\Zencondo\Location.cshtml" />
+    <Content Include="Views\Zencondo\Neighbourhood.cshtml" />
+    <Content Include="Views\Zencondo\Register.cshtml" />
+    <Content Include="Views\Zencondo\UploadMultiFileAndData.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="packages.config" />
+    <None Include="Project_Readme.html" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60480</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:60480/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>
